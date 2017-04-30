@@ -25,18 +25,14 @@
     <android.support.v4.widget.Space
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
-    <Button
-        android:id="@+id/login"
-        android:text="Login Using AadharId"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <android.support.v4.widget.Space
-        android:layout_width="match_parent"
-        android:layout_height="50dp"/>
 
     <EditText
         android:hint="uid"
         android:id="@+id/adharuid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/uid"
         android:layout_width="match_parent"
         android:layout_height="50dp" />
     <Button
