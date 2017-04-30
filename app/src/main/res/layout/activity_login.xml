@@ -15,11 +15,37 @@
     <fragment
         android:id="@+id/barcode"
         android:name="com.google.android.gms.samples.vision.barcodereader.BarcodeCapture"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
         app:gvb_draw ="true"
         app:gvb_auto_focus="true"
         app:gvb_code_format="all_format"
         app:gvb_flash="false"
         app:gvb_rect_colors="@array/rect_color" />
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/login"
+        android:text="Login Using AadharId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:hint="uid"
+        android:id="@+id/adharuid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/submit"
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
